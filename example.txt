@@ -1,0 +1,51 @@
+Original HTML:
+
+<form name="myForm" id="myForm" action="results.php" method="post"/>
+<br><br>
+<input type="text" name="myTextField1" id="myTextField1" disabled/>
+<br><br>
+<input type="text" name   =   "myTextField2" id="myTextField2" readonly/>
+<br><br>
+<input type="text" name = "myTextField3" id="myTextField3" maxlength="10">
+<br><br>
+<input type="radio" name="myTextField4" id="myTextField4" value="oneValue"/>
+<br><br>
+
+<textarea name="myTextArea" id="theTextArea" maxLength="20" disabled readonly></textarea>
+<br><br>
+<select name="fruit" id="myFruit">
+<option value ="none">Nothing</option>
+<option value ="guava">Guava</option>
+<option value = "lychee">Lychee</option>
+<option value ="papaya">Papaya</option>
+</select> 
+
+<br><br>
+<textarea name="myTextArea2" id="theTextArea2"></textarea>
+<br><br>
+<input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other 
+<br><br>
+
+<input type="checkbox" name="color" value="purple"> Purple<br>
+<input type="checkbox" name="color" value="red"> red<br>
+<input type="checkbox" name="color" value="green"> Green 
+<br><br><br><br>
+
+<input type="submit" name="submit" id="submit" value="submit">
+ </form>
+===============================================
+Form Attributes: {method=POST, name=myForm, action=results.php, id=myForm}
+
+Select Lists Attributes: [{name: fruit}{id: myFruit}[none, guava, lychee, papaya]]
+
+Text Inputs Attributes: [{name: myTextField1}{id: myTextField1}{disabled}, {name: myTextField2}{id: myTextField2}{readonly}, {name: myTextField3}{id: myTextField3}{maxlength: 10}]
+
+Radio Inputs Attributes: [{name: myTextField4}{id: myTextField4}[oneValue], {name: gender}[male, female, other]]
+
+Check Box Inputs Attributes: [{name: color}[purple, red, green]]
+
+Text Areas Attributes: [{name: myTextArea}{id: theTextArea}{maxlength: 20}, {name: myTextArea2}{id: theTextArea2}]
+
+===============================================
